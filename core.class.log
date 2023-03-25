@@ -1,0 +1,114 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620992036@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07C9DB1C8E188B0CA93',
+    participant: undefined
+  },
+  messageTimestamp: 1679747963,
+  pushName: 'Pablo Nieto',
+  message: Message {
+    conversation: 'cuanto tiempo antes',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cuanto tiempo antes',
+  from: '34620992036'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620992036@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB033E2DD891D8524EC96',
+    participant: undefined
+  },
+  messageTimestamp: 1679747994,
+  pushName: 'Pablo Nieto',
+  message: Message {
+    conversation: 'o información',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'o información',
+  from: '34620992036'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620992036@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C667C7A81C743CF554',
+    participant: undefined
+  },
+  messageTimestamp: 1679748023,
+  pushName: 'Pablo Nieto',
+  message: Message {
+    conversation: 'ON',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ON',
+  from: '34620992036'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620992036@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04C65F87DC6879D0DA9',
+    participant: undefined
+  },
+  messageTimestamp: 1679748033,
+  pushName: 'Pablo Nieto',
+  message: Message {
+    conversation: 'cuanto tiempo antes',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cuanto tiempo antes',
+  from: '34620992036'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620992036@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0962C2321EEF46BCF90',
+    participant: undefined
+  },
+  messageTimestamp: 1679748051,
+  pushName: 'Pablo Nieto',
+  message: Message {
+    conversation: 'OFF',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'OFF',
+  from: '34620992036'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620992036@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C7CD2355F404788603',
+    participant: undefined
+  },
+  messageTimestamp: 1679748057,
+  pushName: 'Pablo Nieto',
+  message: Message {
+    conversation: 'cuanto tiempo antes',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cuanto tiempo antes',
+  from: '34620992036'
+}
