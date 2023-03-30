@@ -69,7 +69,7 @@ const flowProbar = addKeyword(['puede probar','pueden probar','quiero probar'])
      }
      )
 
-const flowAccesorios = addKeyword(['precio de la tiara','precio del cojin','precio de las invitaciones','precio del ramo'])
+const flowAccesorios = addKeyword(['precio de la tiara','precio del cojin','precio de las invitaciones','precio del ramo','precio tienen las invitaciones'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
     if(!GLOBAL) return endFlow()
     })      
@@ -215,7 +215,7 @@ const flowPagoaplazos = addKeyword(['pagando poco a poco', 'pago a plazos', 'pag
 
 //Flow ubicación
 
- const flowMadrid = addKeyword(['👉 En Madrid','estoy en madrid','vivo en madrid','soy de madrid'])
+ const flowMadrid = addKeyword(['👉 En Madrid','estoy en madrid','vivo en madrid','soy de madrid','la tienda en madrid','En Madrid'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
     if(!GLOBAL) return endFlow()
     })         
@@ -223,7 +223,7 @@ const flowPagoaplazos = addKeyword(['pagando poco a poco', 'pago a plazos', 'pag
     .addAnswer('🗓️🕒 Atendemos *solo con cita previa*!',{delay: 6000,})
     .addAnswer(['Puedes pedir una cita aquí:','www.citas.vestidos15.es'],{delay: 7000,})
 
- const flowBarcelona = addKeyword(['👉 En Barcelona','estoy en barcelona','vivo en barcelona','soy de madrid'])
+ const flowBarcelona = addKeyword(['👉 En Barcelona','estoy en barcelona','vivo en barcelona','soy de barcelona','la tienda en Barcelona','En Barcelona'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
     if(!GLOBAL) return endFlow()
     })         
@@ -246,7 +246,7 @@ const flowVideollamada = addKeyword(['📱 Por Videollamada'])
      }
      )
 
- const flowUbicacion = addKeyword(['ubica','uvica','hubica','n de la tienda','queda la tienda','esta la tienda','está la tienda','tienen tienda','tienda fisica','tienda física','madrid o barcelona','barcelona o madrid','donde estan','donde están','donde son','dónde son','donde esta la tienda','dónde está la tienda'])
+ const flowUbicacion = addKeyword(['ubica','uvica','hubica','n de la tienda','de donde son','queda la tienda','esta la tienda','está la tienda','tienen tienda','tienda fisica','tienda física','madrid o barcelona','barcelona o madrid','donde estan','donde están','donde son','dónde son','donde esta la tienda','dónde está la tienda'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
     if(!GLOBAL) return endFlow()
     })         
@@ -295,7 +295,7 @@ const flowEspana = addKeyword(['España 🌹','soy de','estoy en','fuera de madr
 
 // Flow precios
 
- const flowPrecios = addKeyword(['Cuanto cuestan los vestidos','precio de los vestidos','precio tienen','cuánto cuestan los vestidos','cuanto vale este','que vale este','qué vale este','cuanto valen los vestidos','cuánto valen los vestidos','precio de los vestidos','precio alquiler','precio de este enventa','cual es el valor','precio alquiler','precio alkiler','precio del alquiler','precio del alkiler','precio en alquiler','precio en alkiler','queria cotizar','queria kotizar','el costo','cuanto sale','cuánto sale'])
+ const flowPrecios = addKeyword(['Cuanto cuestan los vestidos','precio de los vestidos','cuestan los vestidos   ','precio tienen','cuánto cuestan los vestidos','cuanto vale este','que vale este','qué vale este','cuanto valen los vestidos','cuánto valen los vestidos','precio de los vestidos','precio alquiler','precio de este enventa','cual es el valor','precio alquiler','precio alkiler','precio del alquiler','precio del alkiler','precio en alquiler','precio en alkiler','queria cotizar','queria kotizar','el costo','cuanto sale','cuánto sale'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
     if(!GLOBAL) return endFlow()
     })          
@@ -305,7 +305,7 @@ const flowEspana = addKeyword(['España 🌹','soy de','estoy en','fuera de madr
     .addAnswer(['Pide tu cita aquí:','www.citas.vestidos15.es'],{delay: 3000,})
 
  // Flow Servicios
- const flowServicios = addKeyword(['©', 'o informacion','a informacion','a información','estoy buscando un vestido','fb.me','https://fb','busco bestido','busco vestido','Cumplo quince años','s información', 's informacion']) 
+ const flowServicios = addKeyword(['o informacion','ia informac','estoy buscando un vestido','fb.me','https://fb','busco bestido','busco vestido','Cumplo quince años','s información', 's informacion']) 
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
     if(!GLOBAL) return endFlow()
     })      
