@@ -8,11 +8,11 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
 //Apagar el bot
 let GLOBAL = false
 
-const flujoON =  addKeyword('OFF').addAction(async(ctx, {flowDynamic, endFlow}) => {
+const flujoON =  addKeyword('bot OFF').addAction(async(ctx, {flowDynamic, endFlow}) => {
     GLOBAL = false
 })
 
-const flujoOFF =  addKeyword('ON').addAction(async(ctx, {flowDynamic, endFlow}) => {
+const flujoOFF =  addKeyword('bot ON').addAction(async(ctx, {flowDynamic, endFlow}) => {
     GLOBAL = true
 })
 
