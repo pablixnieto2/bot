@@ -42,7 +42,7 @@ const flowTiempo = addKeyword(['cuanto tiempo antes','cuánto tiempo antes', 'cu
     .addAnswer('Disculpa, por el momento no tenemos disponibles vestidos de novia.',{delay: 2000,})
     .addAnswer('Constantemente sacamos nuevos productos','Siguenos en nuestras redes para ser la primera en enterarte:',{delay: 3000,})
     .addAnswer('www.instagram.com/vestidos15/',{delay: 1000,})
-    .addAnswer('www.tiktok.com/@vestidos15__',{delay: 1000,})
+    .addAnswer('www.tiktok.com/@vestidos15/',{delay: 1000,})
 
 
 const flowTallas = addKeyword(['r su talla','r la talla','e talla le queda','si le queda el vestido','le quedara el vestido','o las medidas'])
@@ -329,7 +329,7 @@ const flowEspana = addKeyword(['España 🌹','soy de','estoy en','fuera de madr
     })         
     .addAnswer(['Por el momento no tenemos disponible el programa de embajadoras, pero no te preocupes, constantemente sacamos nuevas convocatorias.','Siguenos en nuestras redes para ser la primera en enterarte:'],{delay: 2000,})
     .addAnswer('www.instagram.com/vestidos15/',{delay: 1000,})
-    .addAnswer(['www.tiktok.com/@vestidos15__'],{delay: 1000,})
+    .addAnswer(['www.tiktok.com/@vestidos15/'],{delay: 1000,})
 
  const flowModelaje = addKeyword(['Clases de modelaje'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
@@ -337,7 +337,7 @@ const flowEspana = addKeyword(['España 🌹','soy de','estoy en','fuera de madr
     })         
     .addAnswer(['Por el momento no tenemos disponibles clases de modelaje, pero no te preocupes, constantemente sacamos nuevas actividades.','Siguenos en nuestras redes para ser la primera en enterarte:'],{delay: 2000,})
     .addAnswer('www.instagram.com/vestidos15/',{delay: 1000,})
-    .addAnswer('www.tiktok.com/@vestidos15__',{delay: 1000,})
+    .addAnswer('www.tiktok.com/@vestidos15/',{delay: 1000,})
 
  const flowDesfile = addKeyword(['el desfile'])
     .addAction(async(ctx, {flowDynamic, endFlow}) => {
@@ -345,7 +345,7 @@ const flowEspana = addKeyword(['España 🌹','soy de','estoy en','fuera de madr
     })         
     .addAnswer(['En *Madrid* y *Barcelona* pronto haremos también un desfile','Siguenos en nuestras redes para ser la primera en enterarte:'],{delay: 4000,})
     .addAnswer('www.instagram.com/vestidos15/',{delay: 1000,})
-    .addAnswer('www.tiktok.com/@vestidos15__',{delay: 1000,})
+    .addAnswer('www.tiktok.com/@vestidos15/',{delay: 1000,})
 
 // Flows de satisfacción
 
