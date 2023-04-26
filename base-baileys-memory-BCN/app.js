@@ -131,8 +131,8 @@ const flowPagoaplazos = addKeyword(['pagando poco a poco', 'pago a plazos', 'pag
     if(!GLOBAL) return endFlow()
     })         
     .addAnswer('Algunos recuerdos que tenemos disponibles son:')
-    .addAnswer(['*Las muñecas* son de 13 de alto * 6 ancho, vienen con cinta  y una tarjeta pequeña que se combina según el color del vestido o decoración de la fiesta y viene escrito el Nombre de la Quinceañera y la fecha de su cumpleaños','*Precio:* €2.50/unidad'],{media:'https://xn--quinceaos-r6a.es/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-18-at-12.06.02.jpeg'},{delay: 2000,})
-    .addAnswer(['*Los llaveros*, vienen contramarcados con el Nombre de la quinceañera y la fecha de su cumpleaños','*Precio:* €2.50/unidad'],{media:'https://xn--quinceaos-r6a.es/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-18-at-12.06.04.jpeg'},{delay: 5000,})
+    .addAnswer(['*Las muñecas* son de 13 de alto * 6 ancho, vienen con cinta  y una tarjeta pequeña que se combina según el color del vestido o decoración de la fiesta y viene escrito el Nombre de la Quinceañera y la fecha de su cumpleaños','*Precio:* €2.50/unidad'],{media:'https://xn--quinceaos-r6a.es/wp-content/uploads/2018/09/1-marca-agua.jpg'},{delay: 2000,})
+    .addAnswer(['*Los llaveros*, vienen contramarcados con el Nombre de la quinceañera y la fecha de su cumpleaños','*Precio:* €2.50/unidad'],{media:'https://xn--quinceaos-r6a.es/wp-content/uploads/2022/02/llavero-delante.png'},{delay: 5000,})
     .addAnswer(['Disponemos de más recuerdos que te encantarán 😍','Pide tu cita para venir a ver todos nuestros recuerdos disponibles:','www.citas.vestidos15.es'],{delay: 12000,})
 
  const flowPrecioenvio = addKeyword(['cuesta el envio a','con el envio'])
