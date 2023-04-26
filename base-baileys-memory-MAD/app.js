@@ -141,7 +141,7 @@ const flowPagoaplazos = addKeyword(['pagando poco a poco', 'pago a plazos', 'pag
     })         
     .addAnswer(['El precio del envío dependerá del tamaño del paquete, no solamente del destino.','Ten en cuenta que nosotros no ganamos nada por el envío y buscamos siempre la alternativa más adecuada y económica para que tengas tu vestido a tiempo.','Por ejemplo: el envío de un vestido ida/vuelta de alquiler dentro de España ronda los 35€'],{delay: 2000,})
     .addAnswer('Ofrecemos un servicio online por *videollamada*, donde te enseñaremos nuestra colección de vestidos.',{delay: 5000,})
-    .addAnswer('¿Desde dónde nos escribes?',
+    .addAnswer('El servicio de Videollamada está pensado para aquellas personas que por cualquier motivo no pueden desplazarse hasta nuestras tiendas de Madrid y Barcelona.','¿Desde dónde nos escribes?',
      {
              buttons: [
                  { body: 'España 🌹' },
