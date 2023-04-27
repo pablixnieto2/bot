@@ -347,6 +347,11 @@ const flowEspana = addKeyword(['España 🌹','soy de','estoy en','fuera de madr
     .addAnswer('www.instagram.com/vestidos15/',{delay: 1000,})
     .addAnswer('www.tiktok.com/@vestidos15/',{delay: 1000,})
 
+const flowParis = addKeyword(['viaje a par','el viaje a par'])
+    .addAction(async(ctx, {flowDynamic, endFlow}) => {
+    if(!GLOBAL) return endFlow()
+    })     
+    .addAnswer(['Para pedir información del viaje a París, puedes dejar tus datos a través de este enlace: www.paris.vestidos15.es','La fundadora de Vestidos15 te contactará personalmente.'],{delay: 2000,})
 // Flows de satisfacción
 
 const flowExcelentebcn = addKeyword(['🤩 Excelente!'])
@@ -414,6 +419,7 @@ const main = async () => {
         flowExcelentemad,
         flowExcelentevideo,
         flowNormalmala,
+        flowParis,
         flujoON,
         flujoOFF])
     const adapterProvider = createProvider(BaileysProvider)
