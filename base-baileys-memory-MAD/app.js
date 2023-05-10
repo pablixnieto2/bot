@@ -9,7 +9,7 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
 let GLOBAL = true
 
 const flujoON =  addKeyword('bot OFF...').addAction(async(ctx, {flowDynamic, endFlow}) => {
-    GLOBAL = false
+    GLOBAL = false  
 })
 
 const flujoOFF =  addKeyword('bot ON').addAction(async(ctx, {flowDynamic, endFlow}) => {

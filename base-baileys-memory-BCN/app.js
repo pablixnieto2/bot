@@ -6,7 +6,7 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
 
 //Apagar el bot
-let GLOBAL = false
+let GLOBAL = true
 
 const flujoON =  addKeyword('bot OFF...').addAction(async(ctx, {flowDynamic, endFlow}) => {
     GLOBAL = false
